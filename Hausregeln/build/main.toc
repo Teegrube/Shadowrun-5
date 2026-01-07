@@ -1,0 +1,8 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Kampf}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Ablauf einer Kampfrunde}{3}{subsection.1.1}%
+\contentsline {paragraph}{\nonumberline 1. Initiativeprobe}{3}{paragraph*.3}%
+\contentsline {paragraph}{\nonumberline 2. Initiativedurchgang}{3}{paragraph*.5}%
+\contentsline {paragraph}{\nonumberline 3. Handlungsphase}{3}{paragraph*.7}%
+\contentsline {section}{\numberline {A}Appendix}{4}{appendix.A}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
