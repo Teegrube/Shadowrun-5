@@ -12,11 +12,25 @@ Außerdem können die Charaktere sich in jeder
 \label{sec:kampfrunde}
 Eine Kampfrunde läuft in mehreren Schritten ab:
 \paragraph{1. Initiativeprobe}
-Jeder Charakter wirft seine Initiativewürfel. Die geworfene Augenzahl wird auf seinen Initiativewert addiert. Das Ergebnis bildet dann das \textbf{Initiativeergebnis}, welches von der Spielleiterin in absteigender Reihenfolge notiert wird, um so die \textbf{Initiativereihenfolge} festzulegen.
+Jeder Charakter wirft seine Initiativewürfel. Die geworfene Augenzahl wird auf seinen Initiativewert addiert. Das Ergebnis bildet dann das \textbf{Initiativeergebnis}.
 \paragraph{2. Initiativedurchgang}
+Die \textbf{Initiativeergebnis}se aller Charaktere werden von der Spielleiterin in absteigender Reihenfolge notiert, um so die \textbf{Initiativereihenfolge} festzulegen.
 In der zuvor festgelegten Reihenfolge der Initiativeergebnisse führen nun alle Charaktere ihre \textbf{Handlungsphasen} durch. 
 \paragraph{3. Handlungsphase}
 Zu Beginn seiner Handlungsphase kann ein Charakter sich dazu entscheiden, eine \textbf{Verzögerte Handlung} anzusagen, um seine Handlungsphase später durchzuführen. Tut er dies, endet seine Handlungsphase sofort und der nächste Charakter ist an der Reihe.
 Dafür darf der seine Handlung verzögernde Charakter ab sofort vor oder nach der Handlungsphase eines beliebigen anderen Charakters entscheiden, sofort eine Handlungsphase durchzuführen.\\\\
 In seiner Handlungsphase darf ein Charakter dann eine \textbf{Komplexe Handlung} oder zwei \textbf{Einfache Handlung}en durchführen. Außerdem darf er ohne dafür eine Handlung aufzuwenden beliebig \textbf{Bewegung}en durchführen. \textbf{Wichtig}: Beachte dazu auch, dass sich die maximale Bewegungsreichweite eines Charakters \textbf{nicht} zu Beginn jeder Handlungsphase wieder auffüllt, sondern \textbf{nur zu Beginn jeder Kampfrunde}!
+\paragraph{4. Handlungsphasen der verbliebenen Charaktere}
+Nach der Handlungsphase eines Charakters, führen alle in der Initiativereihenfolge folgenden Charaktere ebenfalls Schritt 3 - Handlungsphase durch, bis jeder Charakter in diesem Initiativedurchgang einmal gehandelt hat.
+\paragraph{5. Reduzieren der Initiativeergebnisse und Beginn des nächsten Initiativedurchgangs}
+Am Ende eines jeden Initiativedurchgangs werden die Initiativeergebnisse aller Charaktere um 10 reduziert. Haben danach noch Charaktere ein Initiativeergebnis über 10, kehren diese zurück zu Schritt 2 - Initiativedurchgang. Alle Charaktere mit Initiativeergebnissen $\leq 0$ werden in folgenden Initiativedurchgängen jedoch übersprungen.\\
+Sobald die Initiativeergebnisse aller Charaktere unter $0$ gefallen sind, endet die Kampfrunde.
+\paragraph{6. Beginn einer neuen Kampfrunde}
+Ist der Kampf nun noch nicht vorbei, beginnt eine neue Kampfrunde (mit Schritt 1 - Initiativeprobe).
 
+\subsection{Die Kampfsequenz}
+Jede der vier Arten von Angriff (\textbf{Fernkampfangriff}, \textbf{Nahkampfangriff}, \textbf{Astralkampf}, \textbf{Matrixkampf}) folgt dem gleichen Ablauf. Grundsätzlich wird ein solcher Kampf als \textbf{Vergleichende Probe} ausgeführt. \homebrew{Die Spielleitung hat jedoch die Möglichkeit, stattdessen eine Erfolgsprobe zu verlangen.}
+\paragraph{1. Ansage}
+Der Angreifer sagt in seiner Handlungsphase an, welche Angriffshandlung er durchführen will und gibt dabei sein Ziel an. Der Verteidiger sagt an, ob er etwaige \textbf{Unterbrechungshandlung}en \ref{sec:Unterbrechungshandlung} ausführen will. Wenn nicht, verteidigt er sich normalerweise mit \textbf{Reaktion+Intuition}.
+\paragraph{2. Angriff}
+Der Angreifer führt als Teil seiner Handlungsphasse seinen Angriff durch. Dazu würfelt

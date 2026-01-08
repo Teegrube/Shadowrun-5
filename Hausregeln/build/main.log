@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.7)  7 JAN 2026 16:56
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.7)  8 JAN 2026 19:53
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1349,42 +1349,55 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 12.
  [2
 
 ] (./content/Kampf.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
  []
+
+
+Overfull \hbox (33.26277pt too wide) in paragraph at lines 26--28
+\TU/lmr/m/n/10.95 Sobald die Ini-tia-tiveergeb-nisse aller Charak-tere unter $\TU/LatinModernMath(1)/m/n/10.95 0$ \TU/lmr/m/n/10.95 gefallen sind, en-det die Kampfrunde. 
+ []
+
+[3]
+
+LaTeX Warning: Reference `sec:Unterbrechungshandlung' on page 4 undefined on input line 34.
 
 )
 
 LaTeX Warning: Empty bibliography on input line 17.
 
-[3] [4] (./build/main.aux)
+[4] [5] (./build/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 4BBFE415318674BCBB63656D73AE6A92;2288.
+(rerunfilecheck)             Checksum: E7F57F3E6DDD8F4A5DEEA77C515DCDB4;3400.
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: E1DBF65312578058E089EA3A7F07B42C;547.
+(rerunfilecheck)             Checksum: 38CF087491DCBCC029FD1A783A1824A4;1114.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 39100 strings out of 476553
+ 39120 strings out of 476553
  100000,2373549 words of node,token memory allocated
  675 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 local_par, 5 glue, 4 kern, 1 penalty, 3 glyph, 13 attribute, 76 glue_spec, 8 attribute_list, 1 write nodes
-   avail lists: 1:4,2:385,3:110,4:74,5:304,6:16,7:5086,8:1,9:141,10:7,11:316,12:1
- 60464 multiletter control sequences out of 65536+600000
- 81 fonts using 32334839 bytes
+   avail lists: 1:4,2:484,3:144,4:94,5:353,6:17,7:6362,8:2,9:167,10:8,11:417,12:1
+ 60472 multiletter control sequences out of 65536+600000
+ 83 fonts using 32598359 bytes
  113i,7n,109p,10925b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (4 pages, 29534 bytes).
+</usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (5 pages, 41464 bytes).
 
-PDF statistics: 87 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 131072)
- 25 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 120 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 131072)
+ 33 words of extra memory for PDF output out of 10000 (max. 100000000)
 

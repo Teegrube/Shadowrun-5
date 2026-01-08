@@ -4,5 +4,11 @@
 \contentsline {paragraph}{\nonumberline 1. Initiativeprobe}{3}{paragraph*.3}%
 \contentsline {paragraph}{\nonumberline 2. Initiativedurchgang}{3}{paragraph*.5}%
 \contentsline {paragraph}{\nonumberline 3. Handlungsphase}{3}{paragraph*.7}%
-\contentsline {section}{\numberline {A}Appendix}{4}{appendix.A}%
+\contentsline {paragraph}{\nonumberline 4. Handlungsphasen der verbliebenen Charaktere}{3}{paragraph*.9}%
+\contentsline {paragraph}{\nonumberline 5. Reduzieren der Initiativeergebnisse und Beginn des nächsten Initiativedurchgangs}{4}{paragraph*.11}%
+\contentsline {paragraph}{\nonumberline 6. Beginn einer neuen Kampfrunde}{4}{paragraph*.13}%
+\contentsline {subsection}{\numberline {1.2}Die Kampfsequenz}{4}{subsection.1.2}%
+\contentsline {paragraph}{\nonumberline 1. Ansage}{4}{paragraph*.15}%
+\contentsline {paragraph}{\nonumberline 2. Angriff}{4}{paragraph*.17}%
+\contentsline {section}{\numberline {A}Appendix}{5}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

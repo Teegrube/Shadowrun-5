@@ -1,14 +1,16 @@
 # Fdb version 4
-["biber build/main"] 1767799614.03044 "build/main.bcf" "build/main.bbl" "build/main" 1767801416.61345 0
-  "build/main.bcf" 1767801416.20352 106890 a8e85db83ba26446913643de1b033a5c "lualatex"
+["biber build/main"] 1767898420.9623 "build/main.bcf" "build/main.bbl" "build/main" 1767898427.12611 0
+  "build/main.bcf" 1767898426.91147 106890 a8e85db83ba26446913643de1b033a5c "lualatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["lualatex"] 1767801411.17179 "main.tex" "build/main.pdf" "main" 1767801416.61395 0
-  "../header_english.tex" 1767800884.71447 4973 40848842525a69c648679a8c6786d47d ""
+["lualatex"] 1767898424.33216 "main.tex" "build/main.pdf" "main" 1767898427.12633 0
+  "../header_english.tex" 1767898262.35046 5060 ea68840c4ed86e86e57722c1ca1a0f87 ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/latinmodern-math.luc" 1736253561.02192 637066 2fa3a8af43fae2bca0703d4162ed197a ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1736253560.84691 128392 cc9893d1631ce94f31c1896bb041be89 ""
+  "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc" 1767898420.66344 136473 5b9cae8284919413f715c1372f2710a1 ""
+  "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1736253574.14152 136294 b20655adeff86618736b3a30e93973df ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1736253560.6429 127309 677951b359b90ddbfa3eb54f696122f6 ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1736253569.58131 128281 c6f80f39b6b4f903e4339f6819ec2ecc ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1736253563.27302 127652 a5bcc9609cb60f4b11aae93e79c7a0c6 ""
@@ -219,7 +221,9 @@
   "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-tounicode.lua" 1693603203 7528 c5b104d6d5d1d86f13d45294df8ac77f ""
   "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-unicode.lua" 1693603203 7917 2ac5fb697191fbe7f30f4ab4e5f7037b ""
   "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1693603203 13565 c514d92e6ff6be7b2f35d8e0eb56185c ""
+  "/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
+  "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf" 1255129361 118204 71070e299cf063366237473420b0fea8 ""
   "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
   "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf" 1255129361 110496 b9c8767d4cc3bf3f4b21f676bf89aa78 ""
   "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf" 1255129361 110400 d844cffffa1af59f9d2bb1bfdb6f1a2c ""
@@ -227,11 +231,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1736253439.89231 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/tex/generic/config/language.dat" 1736253441.45233 5334 a2adf38efc9d3cf9f94b0d593fa3dd75 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1736253490 12242218 20781fbd41c021087dcb7e4d122504d7 ""
-  "build/main.aux" 1767801416.19352 2288 4bbfe415318674bcbb63656d73ae6a92 "lualatex"
-  "build/main.bbl" 1767799614.86282 466 ee04f40f768daeed26442158e95aba61 "biber build/main"
-  "build/main.run.xml" 1767801416.20562 2333 4623153eb1a403dbc354d5e56094ece9 "lualatex"
-  "build/main.toc" 1767801416.20152 547 e1dbf65312578058e089ea3a7f07b42c "lualatex"
-  "content/Kampf.tex" 1767801409.40208 2546 1b86b1edf002665b1b6436c112d31da7 ""
+  "build/main.aux" 1767898426.90647 3400 e7f57f3e6ddd8f4a5deea77c515dcdb4 "lualatex"
+  "build/main.bbl" 1767898421.46345 466 ee04f40f768daeed26442158e95aba61 "biber build/main"
+  "build/main.run.xml" 1767898426.91275 2333 4623153eb1a403dbc354d5e56094ece9 "lualatex"
+  "build/main.toc" 1767898426.91047 1114 38cf087491dcbcc029fd1a783a1824a4 "lualatex"
+  "content/Kampf.tex" 1767898167.14884 4382 6eadaffcfb577498eabb662d8cb2440a ""
   "main.tex" 1767800282.88692 302 72c4e26b5128da6cd8ce988c2ac61cfb ""
   (generated)
   "build/main.aux"
