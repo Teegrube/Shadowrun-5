@@ -246,6 +246,8 @@ OUTPUT build/main.toc
 INPUT ./content/Kampf.tex
 INPUT /home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
 INPUT /home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc
+INPUT ./content/Magie.tex
+INPUT ./content/Bodytech.tex
 INPUT ./build/main.aux
 INPUT ./build/main.aux
 INPUT ./build/main.toc
