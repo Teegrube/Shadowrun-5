@@ -246,6 +246,10 @@ OUTPUT build/main.toc
 INPUT ./content/Kampf.tex
 INPUT /home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
 INPUT /home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc
+INPUT /home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
+INPUT /home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-bold.luc
+INPUT /home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
+INPUT /home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-bold.luc
 INPUT ./content/Magie.tex
 INPUT ./content/Bodytech.tex
 INPUT ./build/main.aux

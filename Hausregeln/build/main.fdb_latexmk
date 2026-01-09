@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber build/main"] 1767966473.81487 "build/main.bcf" "build/main.bbl" "build/main" 1767968040.18726 0
-  "build/main.bcf" 1767968039.95645 106890 a8e85db83ba26446913643de1b033a5c "lualatex"
+["biber build/main"] 1767966473.81487 "build/main.bcf" "build/main.bbl" "build/main" 1767969674.18097 0
+  "build/main.bcf" 1767969673.95305 106890 a8e85db83ba26446913643de1b033a5c "lualatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["lualatex"] 1767968037.33143 "main.tex" "build/main.pdf" "main" 1767968040.18749 0
+["lualatex"] 1767969671.24524 "main.tex" "build/main.pdf" "main" 1767969674.18123 0
   "../header_english.tex" 1767898262.35046 5060 ea68840c4ed86e86e57722c1ca1a0f87 ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/latinmodern-math.luc" 1736253561.02192 637066 2fa3a8af43fae2bca0703d4162ed197a ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1736253560.84691 128392 cc9893d1631ce94f31c1896bb041be89 ""
@@ -14,6 +14,10 @@
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1736253560.6429 127309 677951b359b90ddbfa3eb54f696122f6 ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1736253569.58131 128281 c6f80f39b6b4f903e4339f6819ec2ecc ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1736253563.27302 127652 a5bcc9609cb60f4b11aae93e79c7a0c6 ""
+  "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-bold.luc" 1738016391.64967 128437 7145997b462721adbf7dc4e1c5cbeda1 ""
+  "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc" 1736253565.26112 125949 77481c3f38dbf8f1d1c3d431f8f2c5f7 ""
+  "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-bold.luc" 1738016391.60767 128280 9d9df9e3624b9c0b796b4334d98dcf8b ""
+  "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1736253565.17211 128128 ca20734c6458fb2502cd84305b602bbe ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc" 1736253569.67732 128086 b50d44f93b5455ab752d8a905de89795 ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc" 1736253569.62432 127628 0e00f3d8ee37a075ce8b5477c9ef1b8a ""
   "/home/zwb/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-bold.luc" 1736253561.52994 291898 d3a496ad1603af37e0f227604770816c ""
@@ -231,12 +235,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1736253439.89231 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/tex/generic/config/language.dat" 1736253441.45233 5334 a2adf38efc9d3cf9f94b0d593fa3dd75 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1736253490 12242218 20781fbd41c021087dcb7e4d122504d7 ""
-  "build/main.aux" 1767968039.9493 8075 7a498d53f13e4befd4c23c9c3fe5eb30 "lualatex"
+  "build/main.aux" 1767969673.94622 8565 a04713839ae5eaa527127090926d28a9 "lualatex"
   "build/main.bbl" 1767966474.24496 466 ee04f40f768daeed26442158e95aba61 "biber build/main"
-  "build/main.run.xml" 1767968039.95784 2333 4623153eb1a403dbc354d5e56094ece9 "lualatex"
-  "build/main.toc" 1767968039.9553 2138 39034e1e549003402eb6aaedca8fbdbf "lualatex"
-  "content/Bodytech.tex" 1767968032.1678 1296 ed24a37c77b15f38939e412ff97129cc ""
-  "content/Kampf.tex" 1767962319.93562 4382 6eadaffcfb577498eabb662d8cb2440a ""
+  "build/main.run.xml" 1767969673.95445 2333 4623153eb1a403dbc354d5e56094ece9 "lualatex"
+  "build/main.toc" 1767969673.95122 2326 ddd074e6b3f6855a8e0fef1ccc5b4fb9 "lualatex"
+  "content/Bodytech.tex" 1767969656.59252 1727 8577d98bc2054efddea9890311f8c850 ""
+  "content/Kampf.tex" 1767969214.42402 5584 7b04939488407a9b10e351288fc535e0 ""
   "content/Magie.tex" 1767967926.3202 3485 c187fc79849fe7319b866b97c2134302 ""
   "main.tex" 1767966417.72975 357 de9b620677a405b7deac2a157a46068a ""
   (generated)
