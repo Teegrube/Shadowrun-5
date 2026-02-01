@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.7)  9 JAN 2026 15:41
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.1.7)  1 FEB 2026 15:35
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -72,17 +72,26 @@ Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
 \ta@vblk=\skip51
 \ta@temp=\skip52
 \footheight=\skip53
+
+
+Package typearea Warning: Bad type area settings!
+(typearea)                The detected line width is about 31%
+(typearea)                larger than the heuristically estimated maximum
+(typearea)                limit of typographical good line width.
+(typearea)                You should e.g. decrease DIV, increase fontsize
+(typearea)                or change papersize.
+
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 21
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \textwidth      = 512.14966pt
+(typearea)              DIV departure   = -31%
+(typearea)              \evensidemargin = -29.59085pt
+(typearea)              \oddsidemargin  = -29.59085pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
+(typearea)              \textheight     = 731.80032pt
+(typearea)              \topmargin      = -69.42967pt
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
@@ -305,24 +314,32 @@ Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
  (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+Package typearea Warning: Bad type area settings!
+(typearea)                The detected line width is about 31%
+(typearea)                larger than the heuristically estimated maximum
+(typearea)                limit of typographical good line width.
+(typearea)                You should e.g. decrease DIV, increase fontsize
+(typearea)                or change papersize.
+
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 21
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \textwidth      = 512.14966pt
+(typearea)              DIV departure   = -31%
+(typearea)              \evensidemargin = -29.59085pt
+(typearea)              \oddsidemargin  = -29.59085pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
+(typearea)              \textheight     = 731.80032pt
+(typearea)              \topmargin      = -69.42967pt
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 30.
- (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+(typearea)              on input line 32.
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
  (/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
 \bbl@readstream=\read2
@@ -490,13 +507,13 @@ Package fontspec Info: Font family 'LatinModernMath(1)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 52.
+(Font)              `operators' in the math version `normal' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LatinModernMath(1)/m/n on input line 52.
+(Font)                  OT1/cmr/m/n --> TU/LatinModernMath(1)/m/n on input line 54.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 52.
+(Font)              `operators' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(1)/b/n on input line 52.
+(Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(1)/b/n on input line 54.
 
 Package fontspec Info: Could not resolve font "LatinModernMath/B" (it probably
 (fontspec)             doesn't exist).
@@ -517,13 +534,13 @@ Package fontspec Info: Font family 'LatinModernMath(2)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 52.
+(Font)              `symbols' in the math version `normal' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(2)/m/n on input line 52.
+(Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(2)/m/n on input line 54.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 52.
+(Font)              `symbols' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(2)/b/n on input line 52.
+(Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(2)/b/n on input line 54.
 
 Package fontspec Info: Could not resolve font "LatinModernMath/B" (it probably
 (fontspec)             doesn't exist).
@@ -544,18 +561,18 @@ Package fontspec Info: Font family 'LatinModernMath(3)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 52.
+(Font)              `largesymbols' in the math version `normal' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/m/n on input line 52.
+(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/m/n on input line 54.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 52.
+(Font)              `largesymbols' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/b/n on input line 52.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/b/n on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -578,9 +595,9 @@ Package fontspec Info: Font family 'XITSMath(0)' created for font 'XITS Math'
 
 \sym__um_fam1=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
-(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/m/n on input line 53.
+(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
-(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/b/n on input line 53.
+(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/b/n on input line 55.
 
 Package fontspec Info: Font family 'XITSMath(1)' created for font 'XITS Math'
 (fontspec)             with options
@@ -600,9 +617,9 @@ Package fontspec Info: Font family 'XITSMath(1)' created for font 'XITS Math'
 
 \sym__um_fam2=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `normal'
-(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/m/n on input line 54.
+(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/m/n on input line 56.
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `bold'
-(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/b/n on input line 54.
+(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/b/n on input line 56.
  (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2024-01-25 v3.3.10 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count293
@@ -750,7 +767,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks27
 \@floatcapt=\box70
 )
-Package scrhack Info: loading float hack on input line 78.
+Package scrhack Info: loading float hack on input line 80.
  (/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2023/07/07 v3.41 KOMA-Script scrhack part (hacking package float)
 Package scrhack Info: redefining \newfloat on input line 163.
@@ -843,21 +860,7 @@ LaTeX Info: Redefining \lslig on input line 688.
 Package microtype Info: Loading configuration file microtype.cfg.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
-))
-
-Class scrartcl Warning: Usage of package `parskip' together
-(scrartcl)              with a KOMA-Script class is not recommended.
-(scrartcl)              I'd suggest to use option
-(scrartcl)              `parskip' with one of it's several values.
-(scrartcl)              Nevertheless, using requested
-(scrartcl)              package `parskip' on input line 110.
-
-(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-
-Couldn't patch \@starttoc
-Couldn't patch \@startsection
-) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -1086,7 +1089,7 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 130.
+(scrhack)             need that hack, on input line 132.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -1188,7 +1191,7 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 137.
+Package scrhack Info: loading listings hack on input line 139.
  (/usr/share/texlive/texmf-dist/tex/latex/koma-script/listings.hak
 File: listings.hak 2023/07/07 v3.41 KOMA-Script scrhack part (hacking package listings)
 Package tocbasic Info: setting babel extension for `lol' on input line 157.
@@ -1354,24 +1357,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--23
  []
 
 
-Overfull \hbox (33.26277pt too wide) in paragraph at lines 26--28
-\TU/lmr/m/n/10.95 Sobald die Ini-tia-tiveergeb-nisse aller Charak-tere unter $\TU/LatinModernMath(1)/m/n/10.95 0$ \TU/lmr/m/n/10.95 gefallen sind, en-det die Kampfrunde. 
+LaTeX Warning: Reference `sec:Unterbrechungshandlung' on page 3 undefined on input line 34.
+
+[3]) (./content/Magie.tex
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
  []
 
-[3]
+[4]
 
-LaTeX Warning: Reference `sec:Unterbrechungshandlung' on page 4 undefined on input line 34.
-
-) (./content/Magie.tex [4]
-
-LaTeX Warning: Reference `sec:Bewegung' on page 5 undefined on input line 18.
+LaTeX Warning: Reference `sec:Astrale Reputation' on page 5 undefined on input line 53.
 
 [5]) (./content/Bodytech.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
-) [6]
+[6]
+
+LaTeX Warning: Reference `sec:Initiation' on page 7 undefined on input line 14.
+
+
+LaTeX Warning: Reference `qual:Ausgebrannt' on page 7 undefined on input line 15.
+
+)
 
 LaTeX Warning: Empty bibliography on input line 19.
 
@@ -1381,32 +1390,32 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: A04713839AE5EAA527127090926D28A9;8565.
+(rerunfilecheck)             Checksum: C56780E6D78764CF743A9E1CF0B6634E;10790.
 
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: DDD074E6B3F6855A8E0FEF1CCC5B4FB9;2326.
+(rerunfilecheck)             Checksum: 193958097E66674DB51DF5F61471742F;2921.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 39204 strings out of 476553
+ 39184 strings out of 476553
  100000,2373549 words of node,token memory allocated
- 685 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 local_par, 5 glue, 4 kern, 1 penalty, 3 glyph, 13 attribute, 78 glue_spec, 8 attribute_list, 1 write nodes
-   avail lists: 1:4,2:886,3:218,4:116,5:376,6:47,7:6362,8:19,9:269,10:11,11:417,12:1
- 60522 multiletter control sequences out of 65536+600000
- 89 fonts using 33388551 bytes
+ 694 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 5 kern, 1 penalty, 1 margin_kern, 4 glyph, 13 attribute, 78 glue_spec, 8 attribute_list, 1 write nodes
+   avail lists: 1:5,2:1153,3:286,4:165,5:511,6:62,7:8305,8:19,9:349,10:7,11:538,12:2
+ 60498 multiletter control sequences out of 65536+600000
+ 89 fonts using 33388407 bytes
  113i,7n,109p,10925b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (8 pages, 58945 bytes).
+</usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (8 pages, 68184 bytes).
 
-PDF statistics: 204 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 131072)
- 121 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 248 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 131072)
+ 161 words of extra memory for PDF output out of 10000 (max. 100000000)
 

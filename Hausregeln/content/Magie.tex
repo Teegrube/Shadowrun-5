@@ -1,37 +1,91 @@
 \section{Magie}
-\label{sec:Magie}
-SR5 ist bekannt dafür, "Magicrun" zu sein, denn Magie ist hier mit großem Abstand am mächtigsten. Daher sind hier einige Hausregeln eingearbeitet, welche an Punkten, an denen ein einzelner Zauber oft eine ganze Fähigkeit obsolet macht, generft worden. 
-\subsection{Grundlagen der Magie}
-\paragraph{HB: Entzug}
-\textbf{Entzug} ist der Preis, den man für das Wirken von Magie zahlen muss. Bei jedem Wirken von Magie nimmt ein Charakter Schaden in Höhe des Entzugs der gewirkten Magie. 
-\homebrew{Ist die Kraftstufe eines Zaubers kleiner oder gleich dem Magieattribut des Charakters, verursacht der Entzug geistigen Schaden. Ist die Kraftstufe größer, verursacht er stattdessen physischen Schaden.}
 
-\subsubsection{HB: Physische Illusionsauber}
-\homebrew{
-    Alle RAW physischen Illusionszauber sind gebannt.    
-}
-\paragraph{HB: Chamäleon}
-\homebrew{
-    Art: P, Reichweite: Bf, Dauer: A, Entzug: KS-2\\
-    Diese Zauber sollen ein Ersatz für \textit{Verbesserte Unsichtbarkeit} sein.\\
-    Solange ein Charakter sich nur gehend bewegt (siehe \ref{sec:Bewegung}), erhalten alle, die versuchen, den Charakter per Sicht wahrzunehmen, einen Würfelpoolmalus in Höhe der Erfolge bei der Spruchzaubereiprobe.
-}
+\subsection{Hausregeln}
+\begin{itemize}
+    \item Beim Entzugswiderstand werden immer nur die natürlichen Attribute des widerstehenden Charakters verwendet. Technologische und/oder magische Attributsverstärkungen werden dabei also nicht angerechnet.
+    \item Reagenzien können nicht verwendet werden, um Limits zu hacken.
+    \item Ein Charakter kann von jeder Fokusart immer nur einen gleichzeitig aktiv haben. Beispielsweise also einen Zauberspeicher (insgesamt; nicht pro Zauberart), einen Herbeirufen-Fokus, einen Metamagie-Fokus usw.
+    \item Bei Proben sind Würfelpool-Boni durch Foki auf $4$ begrenzt.
+    \item Foki haben andere Verfügbarkeiten. Kraftfoki haben $6\text{E}/\text{Kraftstufe}$, Waffenfoki haben $5\text{E}/\text{Kraftstufe}$, alle anderen haben $4\text{E}/\text{Kraftstufe}$.
+    \item Der maximale Initiatengrad eines Charakters ist $\frac{\text{Magie}}{2} \text{(aufgerundet)}$.
+\end{itemize}
 
-\subsection{HB: Foki}
-\homebrew{Die Verfügbarkeit von Foki ist immer mindestens 13. Dadurch sind sie bei der Charaktererschaffung nicht erhältlich. Insgesamt sind Foki viel seltener, als nach den RAW und ein Charakter kann sich glücklich schätzen, einen einzigen Fokus zu besitzen.}
+\subsection{Erweiterte magische Fertigkeiten}
+Die Fertigkeiten \textbf{Fokusherstellung} und \textbf{Entzaubern} haben zusätzliche Anwendungsgebiete. Genauer gesagt werden im Verlauf der Kampagne verzauberte Objekte auftauchen, welche keine Foki sind. Um mit diesen zu interagieren, werden diese beiden Fertigkeiten benötigt.
 
-\subsection{HB: Initiation}
-\label{sec:Initiation}
-Die Initiation funktioniert regeltechnisch größtenteils wie RAW, jedoch mit einigen Modifikationen: \homebrew{Der maximale Initiatengrad ist begrenzt, und zwar auf die (abgerundete) Hälfte des Magieattributs eines Charakters.}
+\subsection{Arten der Magie}
+\paragraph{Magieradepten}
+Für Magieradepten kosten Kraftpunkte je $10\text{ Karma}$, statt wie RAW 5.\\
+
+\subsubsection{Aspektzauberer}
+Aspektzauberer haben zwar den Nachteil der Eingeschränktheit in der Wahl ihrer Mittel. Dafür bekommen sie hier jedoch einige Boni - je nach Spezialgebiet. Ein Aspektzauberer erhält bei Erwerb einer Spezialisierung/Expertise auf eine dieser Fertigkeiten den entsprechenden Bonus.
+\paragraph{Aspektbeschwörer}
+\begin{itemize}
+    \item[Berschwören] Der Charakter hat einen zusätzlichen Herbeirufen-Würfel.
+    \item[Binden] Der Charakter hat einen zusätzlichen Binden-Würfel.
+    \item[Verbannen] ?
+\end{itemize}
+
+\paragraph{Aspektverzauberer}
+\begin{itemize}
+    \item[Alchemie] Alchemische Erzeugnisse haben eine um $1$ höhere Wirksamkeit.
+    \item[Fokusherstellung] ?
+    \item[Entzaubern] ?
+\end{itemize}
+
+\paragraph{Aspekthexer}
+\begin{itemize}
+    \item[Spruchzauberei] Der Charakter kann einen zusätzlichen Zauber ohne Würfelpoolmalus aufrechterhalten. 
+    \item[Ritualzauberei] Der Charakter
+    \item[Antimagie] Der Charakter
+\end{itemize}
+
+\subsection{Magische Vor-/Nachteile}
+\paragraph{Astralsucht}
+Ein Charakter mit diesem Vor-/Nachteil kann astral wahrnehmen, OHNE den Würfelpoolmalus von $-2$ auf alle physischen Proben zu erhalten. Dafür erhält er einen Malus von $-2$ auf all seine Proben, wenn er NICHT astral wahrnimmt.
 
 
-\subsection{Adept}
-\paragraph{HB: Vorteil: Weg des Ausgebrannten}
-\label{qual:Ausgebrannt}
-Der Vorteil \textbf{Weg des Ausgebrannten} (SG S.207f) hat nun folgende Wirkung:\\
-\homebrew{15 Karma:\\
-Ein Adept, welcher durch Bodytech mehr als 2 Punkte Essenz verloren hat, kann diesen Weg beschreiten. Dies erlaubt ihm, bei seiner Initiation \ref{sec:Initiation} stattdessen den Effekt einer Cyberinitiation \ref{sec:Cyberinitiation} zu erhalten. Der Adept erhält jedoch nur ein Essenzloch der Größe $0.5 \text{Essenz}$ statt der für Mundane üblichen $1.0 \text{Essenz}$. Für seinen maximalen Cyberinitiatengrad gilt jedoch die selbe Einschränkung wie bei der normalen Cyberinitiation: Der maximale Cyberinitiatengrad ist immer gleich dem (aufgerundeten) halben Essenzverlust eines Charakters. \textbf{Wichtiger Hinweis}: Wählt ein Charakter bei seiner Initiation diese Option, steigen sowohl sein Initiatengrad, als auch sein Cyberinitiatengrad um 1.}
+\subsection{Geister}
+Hier eine Übersicht der verwendeten Hausregeln:
+\begin{itemize}
+    \item Beim Herbeirufen wir die vergleichende Probe gegen die DOPPELTE Kraftstufe des Geistes abgelegt. Der Entzug ist dann gleich der Anzahl der Erfolge des Geistes statt der doppelten Anzahl der Erfolge.
+    \item Beim verstärkten Panzer materialisierter Geister fällt der Schwellenwert weg.
+    \item Beschwörer können mittels des Systems für Astrale Reputation (in \autoref{sec:Astrale Reputation}) weitere Effekte für ihre beschworenen Geister erzielen.
+    \item Ein Charakter kann von jeder Geisterart seiner Tradition nur jeweils einen gleichzeitig gebunden haben. Solange ein Geist einer Art gebunden ist, kann der Charakter diese Geisterart nicht mehr herbeirufen.
+    \item Auch gebundene Geister sind (teilweise) an den Tag-/Nachtzyklus der Welt gekoppelt. Sie verschwinden bei jedem Sonnenauf- und -untergang für $\text{Kraftstufe}$ Kampfrunden zurück auf ihre Metaebene. Dadurch enden beispielsweise durch den Geist aufrechterhaltene Zauber. Ist der gebundene Geist auf einer Mission, kehrt er jedoch selbstständig an den Ort, an dem er verschwand zurück und führt seinen Auftrag fort.
+\end{itemize}
 
-\subsection{Magieradepten}
-\homebrew{Magieradepten funktionieren hier wie in Shadowrun 4. Sie haben zwei separate Magieattribute: Eines für die Adeptenseite und eines für die Zaubererseite. Wann immer ein Magieradept sein Magieattribut erhöht, muss er sich entscheiden, ob er diesen zusätzlichen Punkt Magie in die eine oder die andere Seite investiert. Die einzelnen Seiten funktionieren dann jedoch wie ein reiner Adept bzw wie ein reiner Zauberer. Ein Magieradept mit Adept 2 und Zauberer 4 erhält bspw 2KP von der Adeptenseite, während abb einer Kraftstufe von 5 der Entzug seiner Zauber physisch wird.}\\
-\homebrew{Außerdem kann ein Magieradept keine Vorteile für Adepten/Zauberer erwerben.}
+\subsubsection{Traditionen und Geister}
+Jeder Charakter hat ein eigenes Verhältnis zur Geisterwelt.\\
+Anhänger schamanischer (charismabasierter) Traditionen sehen Geister als gleichberechtigte Partner und teilweise sogar Freunde. Sie rufen gerne immer wieder die gleiche Entität herbei, wenn sie einen Geist einer Art rufen. Sie bemühen sich um eine gute astrale Reputation. Daher setzen sie das Binden nur sehr sparsam ein und vereinbaren in der Regel Kompensation (Erfüllen einer Quest, Übergabe von Karma an den Geist, etc.), sollten sie doch einmal einen Geist binden.\\
+Hermetische (logikbasierte) Traditionen hingegen halten Geister für reine Werkzeuge, welche ihnen beim Erreichen ihrer Ziele helfen sollen. Sie würden niemals einen Geist nach seinem Namen fragen und setzen rücksichtslos das Binden ein, um sich Geister gefügig zu machen. Ihre astrale Reputation ist traditionell schlecht.\\
+Chaotische (intuitionsbasierte) Traditionen haben ein ambivalentes Verhältnis zur Geisterwelt. Einerseits betrachten sie Geister für auf ihrer eigenen Stufe stehend, jedoch nicht wie (potentielle) Freunde, sondern eher wie Geschäftspartner, mit denen man hart verhandelt und die man zu übervorteilen versucht, aber die man auch mal zum Essen einlädt. Diese Traditionen haben stark schwankenden astrale Reputationen.
+
+\subsubsection{Herbeirufen}
+Beim Herbeirufen wird die vergleichende Probe gegen die DOPPELTE Kraftstufe des Geistes abgelegt. Der Entzug ist dann gleich der Anzahl der Erfolge des Geistes statt der doppelten Anzahl der Erfolge.\\
+Bei einem Gleichstand bei der vergleichenden Probe erscheint der Geist dennoch. Dann werden ggf. Herbeirufen-Würfel geworfen. Gewährt einer dieser Würfel dem Beschwörer Dienste, so ist der Geist ihm diese schuldig und bleibt. Ist dies nicht der Fall, verhält sich der Geist entsprechend der astralen Reputation des Beschwörers. 
+\subsubsection{Astrale Reputation}
+Die astrale Reputation eines Charakters kann einen Wert von $-10$ bis $10$ annehmen. Diese hat folgende Auswirkungen:
+\begin{itemize}
+    \item $\geq +9$: 3 Herbeirufen-Würfel
+    \item $\geq +6$: 2 Herbeirufen-Würfel.
+    \item $\geq +3$: 1 Herbeirufen-Würfel.
+    \item $\geq -3$: Ein Geist greift einen einmal an, sollte er die Gelegenheit dazu erhalten.
+    \item $\geq -6$: Ein Geist greift einen 2-3 mal an, sollte er die Gelegenheit dazu erhalten. 
+    \item $\geq -9$: Ein Geist versucht einen zu töten, sollte er die Gelegenheit dazu erhalten. 
+\end{itemize}
+Ein Charakter hat bei jeder seiner Tradition zugänglichen Geisterart eine gesonderte astrale Reputation. Diese ist abhängig von seinem Verhalten gegenüber Geistern dieser Art.\\
+Beispiele für negative Aktionen gegenüber Geistern sind Binden, verdrängen lassen, der Dienst \textit{Zauber binden}, das Beauftragen mit einer Aufgabe, welche nicht der Tradition entspricht etc.\\
+Auch Geister, welche von anderen herbeigerufen wurden, werden bei einem negativen Geisterruf versuchen, einem zu schaden - sofern ihre Befehle ihnen dies erlauben.
+
+\subsubsection{Herbeirufen}
+Ruft ein Charakter einen Geist herbei, so werden je nach astraler Reputation Herbeirufen-Würfel geworfen. Dieser hat - je nach Würfelergebnissen - folgende Auswirkungen:
+\begin{enumerate}
+    \setcounter{enumi}{3}
+    \item[1,2] $\text{Entzug}-1$
+    \item[3,4] $\text{Dienste}+1$
+    \item[5,6] $\text{Kraftstufe}+1$
+\end{enumerate}
+\subsubsection{Binden}
+Will ein Charakter einen Geist binden, so muss dies direkt nach dem Herbeirufen initiiert werden. Bindet ein Charakter einen Geist, gehen alle Boni durch etwaige Herbeirufen-Würfel verloren. Außerdem kann ein Charakter keine Herbeirufen-Würfel verwenden, solange ein Geist an ihn gebunden ist.\\
+Jedes Binden senkt die astrale Reputation des Charakters bei der herbeigerufenen Geisterart um 1.

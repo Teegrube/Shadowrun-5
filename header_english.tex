@@ -2,7 +2,9 @@
   bibliography=totoc,     % Literatur im Inhaltsverzeichnis
   captions=tableheading,  % Tabellenüberschriften
   titlepage=firstiscover, % Titelseite ist Deckblatt
+  DIV=21,                 % ← controls margins
 ]{scrartcl}
+
 
 % Paket float verbessern
 \usepackage{scrhack}
@@ -106,9 +108,9 @@
 \usepackage{microtype}
 
 % Absätze machen keinen Unterschied mehr
-\usepackage[parfill]{parskip}
-\setlength{\parskip}{0pt}
-\setlength{\parindent}{0pt}
+% \usepackage[parfill]{parskip}
+% \setlength{\parskip}{0pt}
+% \setlength{\parindent}{0pt}
 
 % Literaturverzeichnis
 \usepackage[
@@ -182,12 +184,7 @@
 
 
 \author{%
-  Joel Koch\\%
-  \href{mailto:joel.koch@tu-dortmund.de}{joel.koch@tu-dortmund.de}
-  \and%
-  % Felix Symma\\%
-  % \href{mailto:felix.symma@tu-dortmund.de}{felix.symma@tu-dortmund.de}%
   Axel Vogt \\%
-  \href{mailto:axel.vogt@udo.edu}{axel.vogt@udo.edu}
+  \href{mailto:axel@worx4all.de}{axel@worx4all.de}
 }
-\publishers{University Dortmund - Facilty of Physics}
+\publishers{Me, myself and I}

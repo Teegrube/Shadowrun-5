@@ -5,25 +5,32 @@
 \contentsline {paragraph}{\nonumberline 2. Initiativedurchgang}{3}{paragraph*.5}%
 \contentsline {paragraph}{\nonumberline 3. Handlungsphase}{3}{paragraph*.7}%
 \contentsline {paragraph}{\nonumberline 4. Handlungsphasen der verbliebenen Charaktere}{3}{paragraph*.9}%
-\contentsline {paragraph}{\nonumberline 5. Reduzieren der Initiativeergebnisse und Beginn des nächsten Initiativedurchgangs}{4}{paragraph*.11}%
-\contentsline {paragraph}{\nonumberline 6. Beginn einer neuen Kampfrunde}{4}{paragraph*.13}%
-\contentsline {subsection}{\numberline {1.2}Die Kampfsequenz}{4}{subsection.1.2}%
+\contentsline {paragraph}{\nonumberline 5. Reduzieren der Initiativeergebnisse und Beginn des nächsten Initiativedurchgangs}{3}{paragraph*.11}%
+\contentsline {paragraph}{\nonumberline 6. Beginn einer neuen Kampfrunde}{3}{paragraph*.13}%
+\contentsline {subsection}{\numberline {1.2}Die Kampfsequenz}{3}{subsection.1.2}%
 \contentsline {paragraph}{\nonumberline 1. Ansage}{4}{paragraph*.15}%
 \contentsline {paragraph}{\nonumberline 2. Angriff}{4}{paragraph*.17}%
 \contentsline {paragraph}{\nonumberline 3. Bestimmung der Auswirkungen und Schadenswiderstand}{4}{paragraph*.19}%
-\contentsline {section}{\numberline {2}Magie}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Grundlagen der Magie}{5}{subsection.2.1}%
-\contentsline {paragraph}{\nonumberline HB: Entzug}{5}{paragraph*.21}%
-\contentsline {subsubsection}{\numberline {2.1.1}HB: Physische Illusionsauber}{5}{subsubsection.2.1.1}%
-\contentsline {paragraph}{\nonumberline HB: Chamäleon}{5}{paragraph*.23}%
-\contentsline {subsection}{\numberline {2.2}HB: Foki}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}HB: Initiation}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Adept}{5}{subsection.2.4}%
-\contentsline {paragraph}{\nonumberline HB: Vorteil: Weg des Ausgebrannten}{5}{paragraph*.25}%
-\contentsline {subsection}{\numberline {2.5}Magieradepten}{6}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Bodytech}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Essenzlöcher}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Upgrades}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {2}Magie}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Hausregeln}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Erweiterte magische Fertigkeiten}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Arten der Magie}{4}{subsection.2.3}%
+\contentsline {paragraph}{\nonumberline Magieradepten}{4}{paragraph*.21}%
+\contentsline {subsubsection}{\numberline {2.3.1}Aspektzauberer}{4}{subsubsection.2.3.1}%
+\contentsline {paragraph}{\nonumberline Aspektbeschwörer}{5}{paragraph*.23}%
+\contentsline {paragraph}{\nonumberline Aspektverzauberer}{5}{paragraph*.25}%
+\contentsline {paragraph}{\nonumberline Aspekthexer}{5}{paragraph*.27}%
+\contentsline {subsection}{\numberline {2.4}Magische Vor-/Nachteile}{5}{subsection.2.4}%
+\contentsline {paragraph}{\nonumberline Astralsucht}{5}{paragraph*.29}%
+\contentsline {subsection}{\numberline {2.5}Geister}{5}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Traditionen und Geister}{5}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Herbeirufen}{6}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Astrale Reputation}{6}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Herbeirufen}{6}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Binden}{6}{subsubsection.2.5.5}%
+\contentsline {section}{\numberline {3}Bodytech}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Essenzlöcher}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Upgrades}{7}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}HB: Cyberinitiation}{7}{subsection.3.3}%
 \contentsline {section}{\numberline {A}Appendix}{8}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

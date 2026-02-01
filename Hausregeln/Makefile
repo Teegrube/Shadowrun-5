@@ -12,7 +12,7 @@ build/main.pdf: FORCE | build
 	  --halt-on-error \
 	main.tex
 	cp build/main.pdf Hausregeln.pdf
-	evince Hausregeln.pdf
+	evince -f Hausregeln.pdf
 
 build:
 	mkdir -p build
